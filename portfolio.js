@@ -5,9 +5,9 @@ export const greetings = {
 	title: "Bienvenidos",
 	description:
 		"Soy actualmente egresado de Técnico en informática, ya uento con unos meses de experiencia en el desarrollo de aplicaciónes móviles" +
-		" utilizando el SDK Flutter y lenguaje de programación Dart" +
-		" trabajar tanto en el Frontend como Backend, mi fuerte es el desarrollo en el lado del servidor. Dominio en tecnologías como .NET, Symfony, SQL Server y ReactJS. Soy" +
-		" un apasionado por el desarrollo y aquello me motiva dia a dia para entregar las mejores soluciones.",
+		" utilizando el SDK Flutter y lenguaje de programación Dart." +
+		" Estoy siempre dispuesto a seguir ganando experiencia en el área del desarrollo de Apps y " +
+		"progresar con nuevas ideas para las interfaces de usuario.",
 	resumeLink: "https://drkoi.tech/CV_Kevin_Figueroa.pdf",
 };
 
@@ -29,48 +29,21 @@ export const skillsSection = {
 		"CON ESTAS TECNOLOGÍAS REALIZO DIVERSOS PROYECTOS.",
 	skills: [
 		emoji(
-			"⚡ Desarrollo de interfaces de comunicación REST y GraphQL"
+			"⚡ Desarrollo de aplicaciones móviles con Flutter y Dart"
 		),
 		emoji(
-			"⚡ Construcción de bases de datos relacionales a través de lenguaje SQL o utilizando orm (Eloquent, TypeORM, Sequelize, etc)"
+			"⚡ Manejo de bases de datos con SQL"
 		),
 		emoji(
-			"⚡ Conexión del cliente con el servidor utilizando javascript vanilla o librerias como react y vuejs."
+			"⚡ Autenticación y manipulación de bases de datos no relacionales con las herramientas de Firebase"
 		),
 	],
 
 	softwareSkills: [
-		{
-			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
-		},
+
 		{
 			skillName: "Laravel",
 			fontAwesomeClassname: "logos:laravel",
-		},
-		{
-			skillName: "JavaScript",
-			fontAwesomeClassname: "logos:javascript",
-		},
-		{
-			skillName: "TypeScript",
-			fontAwesomeClassname: "logos:typescript-icon",
-		},
-		{
-			skillName: "reactjs",
-			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-		},
-		{
-			skillName: "nodejs",
-			fontAwesomeClassname: "logos:nodejs-icon",
-		},
-		{
-			skillName: "NestJS",
-			fontAwesomeClassname: "logos:nestjs",
-		},
-		{
-			skillName: "graphql",
-			fontAwesomeClassname: "logos:graphql",
 		},
 		{
 			skillName: "php",
@@ -93,15 +66,19 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
+			skillName: "flutter",
+			fontAwesomeClassname: "logos:flutter-icon",
+		},
+		{
+			skillName: "firebase",
+			fontAwesomeClassname: "logos:firebase-icon",
 		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Backend y bases de datos", //Insert stack or technology you have experience in
+		Stack: "", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
@@ -112,78 +89,40 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Colegio Particular San Mateo",
-		subHeader: "Tecnico de nivel medio en Telecomunicaciones",
-		duration: "Marzo 2016 - Marzo 2018",
-		desc: "Formación en area de redes a través de cursos oficiales de Cisco (CCNA 1, CCNA 2) y construccion de computadores (It Essentials).",
-	},
-	{
 		schoolName: "Universidad Técnica Federico Santa María",
 		subHeader: "Técnico Universitario en Informática",
-		duration: "Marzo 2020 - Marzo 2022",
-		desc: "Formación en desarrollo de software desde su plánificación hasta su implementación, " +
-			"también en diversos tópicos como la matemática, educación fisica y humanidades.",
+		duration: "Marzo 2020 - Diciembre 2022",
+		desc: "Formación en desarrollo de software desde su plánificación hasta su implementación"
 	},
-	{
-		schoolName: "Universidad Técnica Federico Santa María",
+	/* {
+		schoolName: "Pontificia Universidad Técnica Federico Santa María",
 		subHeader: "Ingenieria de Ejecución en Software",
 		duration: "Marzo 2022 - Actual",
 		desc: "Ejerciendo como programador y estudiando sobre el desarrollo enfocado en el área menos técnica.",
-	}
+	} */
 ];
 
 export const experience = [
 	{
-		role: "Desarrollador",
-		company: "Kuantum SpA",
-		companylogo: "/img/kuantum.jpg",
+		role: "Desarrollador Flutter",
+		company: "Universidad Andrés Bello",
+		companylogo: "/img/logo_unab.png",
 		date: "Enero 2022 - Agosto 2022",
-		desc: "Desarrollo de aplicaciones en MvC con .NET Framework.",
+		desc: "Desarrollo de aplicaciones móviles.",
 		descBullets: [
-			".NET Model First",
-			"Symfony",
-			"Desarrollo de servicios REST"
+			"Dart",
+			"Flutter",
+			"Firebase"
 		],
 	},
-	{
-		role: "Digital Professional",
-		company: "LATAM Airlines",
-		companylogo: "/img/latam_airlines.jpg",
-		date: "Agosto 2022 - Actual",
-		desc: "Desarrollador especialista en backend.",
-		descBullets: [
-			"Java",
-			"Microservicos",
-			"Google Cloud",
-			"Metodologías Ágiles",
-		],
-	}
+
 ];
 
 export const projects = [
 	{
-		name: "D'Amore Store",
-		desc: "Proyecto de título de la carrera T.U en Informática, consiste de una tienda online con panel de administración, implementa funcionalidades como " +
-			"autenticación, autorización, subida de archivos, etc. Fue realizada con Laravel en su totalidad y desplegada en un servidor Nginx contenido en una vm ubuntu de" +
-			" google cloud.",
-		github: "https://github.com/LIbanezDev/damore-online-store",
-	},
-	{
-		name: "Fakebook",
-		desc: "Uno de los proyectos mas desafiantes, se construyó una mini red social (de ahi su nombre) con arquitectura de microservicios, se utilizó nestjs para hacer cada" +
-			" servicio independiente, cada uno de dichos servicios era un contenedor de docker 100% independiente.",
-		github: "https://github.com/LIbanezDev/fakebook",
-	},
-	{
-		name: "Material USM",
-		desc: "Sitio para subir archivos de las diversas carreras y asignaturas que hay en la utfsm, fue construida con laravel.",
-		github: "https://github.com/LIbanezDev/material_usm_project",
-	},
-	{
-		name: "Social Todos",
-		desc: "Aplicación tipo red social donde cada usuario tiene amigos, grupos e incluso chat, se utilizó nodejs con typescript y typeorm. " +
-			"En la parte del cliente se usó react.",
-		github: "https://github.com/LIbanezDev/social-todos-server",
+		name: "Ob Calculator UNAB",
+		desc: "Aplicación para calcular edad gestacional desde FUR y fecha de ecografía. Incluye apartado con información semana a semana sobre el embarazo y probable signo zodiacal al nacer el bebé",
+		github: "https://github.com/DrKoi/obcalculator_unab",
 	},
 ];
 
