@@ -67,11 +67,11 @@ export const skillsSection = {
 		},
 		{
 			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter-icon",
+			fontAwesomeClassname: "logos:flutter",
 		},
 		{
 			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase-icon",
+			fontAwesomeClassname: "logos:firebase",
 		},
 	],
 };
