@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Kevin Figueroa Cueto",
 	title: "Bienvenidos",
 	description:
-		"Soy actualmente egresado de Técnico en informática, ya uento con unos meses de experiencia en el desarrollo de aplicaciónes móviles" +
+		"Soy actualmente egresado de Técnico en informática, ya cuento con unos meses de experiencia en el desarrollo de aplicaciónes móviles" +
 		" utilizando el SDK Flutter y lenguaje de programación Dart." +
 		" Estoy siempre dispuesto a seguir ganando experiencia en el área del desarrollo de Apps y " +
 		"progresar con nuevas ideas para las interfaces de usuario.",
@@ -78,7 +78,7 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "", //Insert stack or technology you have experience in
+		Stack: "Flutter", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
@@ -107,7 +107,7 @@ export const experience = [
 		role: "Desarrollador Flutter",
 		company: "Universidad Andrés Bello",
 		companylogo: "/img/logo_unab.png",
-		date: "Enero 2022 - Agosto 2022",
+		date: "Septiembre 2022 - Diciembre 2022",
 		desc: "Desarrollo de aplicaciones móviles.",
 		descBullets: [
 			"Dart",
