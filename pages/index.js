@@ -19,30 +19,25 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Lucas Vergara",
+					title: "Kevin Figueroa Cueto",
 					description:
-						"Apasionado programador, especialista en JS y PHP.",
-					image: "https://avatars.githubusercontent.com/u/56010205?v=4",
-					url: "https://lucasign.me",
+						"Desarrollador Flutter en crecimiento",
+					image: "https://avatars.githubusercontent.com/u/64949206?v=4",
+					url: "https://drkoi.tech",
 					keywords: [
-						"Lucas Ignacio",
-						"Lucas Vergara",
-						"@libanezdev",
-						"@lucas.ignacio18",
+						"Kevin Alejandro",
+						"Kevin Figueroa",
+						"@kevin",
+						"@quebim.efe",
 						"Portafolio",
-						"Lucas Vergara Portafolio",
-						"LibanezDev portafolio",
+						"Kevin Figueroa Portafolio",
+						"drkoi portafolio",
 						"web developer",
-						"full stack",
-						"full stack web developer",
+						"flutter developer",
+						"mobile apps dev",
 						"android developer",
-						"django rest framework",
-						"nodejs ",
-						"expressjs",
-						"reactjs ",
-						"typescript",
-						"graphql",
 						"flutter",
+						"dart",
 					],
 				}}
 			/>

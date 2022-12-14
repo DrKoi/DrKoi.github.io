@@ -1,30 +1,30 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Lucas Ignacio Vergara",
+	name: "Kevin Figueroa Cueto",
 	title: "Bienvenidos",
 	description:
-		"Tengo 6 meses de experiencia en el desarrollo y más de 3 años en formación individual y académica. Me gusta idear e implementar soluciones a través del desarrollo" +
-		" de software, y aunque me ha tocado" +
+		"Soy actualmente egresado de Técnico en informática, ya uento con unos meses de experiencia en el desarrollo de aplicaciónes móviles" +
+		" utilizando el SDK Flutter y lenguaje de programación Dart" +
 		" trabajar tanto en el Frontend como Backend, mi fuerte es el desarrollo en el lado del servidor. Dominio en tecnologías como .NET, Symfony, SQL Server y ReactJS. Soy" +
 		" un apasionado por el desarrollo y aquello me motiva dia a dia para entregar las mejores soluciones.",
-	resumeLink: "https://lucasign.me/CV_Lucas_Vergara.pdf",
+	resumeLink: "https://drkoi.tech/CV_Kevin_Figueroa.pdf",
 };
 
 export const openSource = {
-	githubUserName: "LIbanezDev",
+	githubUserName: "DrKoi",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	twitter: "https://twitter.com/LucasIV5",
-	github: "https://github.com/LIbanezDev",
-	linkedin: "https://www.linkedin.com/in/lucas-ignacio-vergara-iba%C3%B1ez-b22673166/",
+	//twitter: "https://twitter.com/LucasIV5",
+	github: "https://github.com/DrKoi",
+	linkedin: "https://www.linkedin.com/in/kevin-figueroa-cueto-449b42144/",
 };
 
 export const skillsSection = {
-	title: "Que Utilizo",
+	title: "Qué tecnologías utilizo",
 	subTitle:
 		"CON ESTAS TECNOLOGÍAS REALIZO DIVERSOS PROYECTOS.",
 	skills: [
